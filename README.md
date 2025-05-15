@@ -1,4 +1,4 @@
-# React Native Crypto Wallet
+# Crypto Wallet
 
 A simple React Native application that mimics basic functionality of a crypto wallet by integrating with the CoinGecko API.
 
