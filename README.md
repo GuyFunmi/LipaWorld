@@ -117,4 +117,3 @@ With more time, I would add:
 7. **Improved Testing**: Add more comprehensive integration and E2E tests.
 
 8. **Performance Optimization**: Implement virtualized lists for better performance with large transaction histories.
-\`\`\`
