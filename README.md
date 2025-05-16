@@ -1,4 +1,4 @@
-# React Native Crypto Wallet
+# Crypto Wallet
 
 A simple React Native application that mimics basic functionality of a crypto wallet by integrating with the CoinGecko API.
 
@@ -18,13 +18,15 @@ A simple React Native application that mimics basic functionality of a crypto wa
 - React Query for data fetching, caching, and state management
 - CoinGecko API for cryptocurrency data
 - Jest and React Testing Library for testing
+- 📱 Native iOS and Android support  
+- 🚀 Fast development workflow using Expo CNG
 
 ## Setup Instructions
 
 1. Clone the repository:
 \`\`\`bash
-git clone https://github.com/yourusername/react-native-crypto-wallet.git
-cd react-native-crypto-wallet
+git clone https://github.com/GuyFunmi/LipaWorld.git
+cd LipaWorld
 \`\`\`
 
 2. Install dependencies:
@@ -32,15 +34,18 @@ cd react-native-crypto-wallet
 npm install
 \`\`\`
 
-3. Start the Expo development server:
+3. This will create the android and ios directories if they don’t already exist:
 \`\`\`bash
-npx expo start
+npx expo prebuild
 \`\`\`
 
 4. Run on a simulator or device:
-   - Press `i` to open in iOS simulator
-   - Press `a` to open in Android emulator
-   - Scan the QR code with the Expo Go app on your physical device
+   - npx expo run:ios
+   - npx expo run:android
+
+Note: This project does not use Expo Go.
+
+Use a simulator, emulator, or a physical device with a development build (e.g., via a custom dev client).
 
 ## Project Structure
 
